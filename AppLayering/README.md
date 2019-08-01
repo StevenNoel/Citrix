@@ -6,7 +6,7 @@ Tested with App Layering 4.x
 # Prerequisites
 You will need to install Ryan Butler's App Layering SDK found here - https://www.powershellgallery.com/packages/ctxal-sdk/
 
-ALso, you'll need to create your Credential files via https://github.com/StevenNoel/Credentials/tree/master/CreateSecureCredsFiles
+Also, you'll need to create your Credential files via https://github.com/StevenNoel/Credentials/tree/master/CreateSecureCredsFiles
 
 # Examples
 ```
