@@ -19,3 +19,5 @@ This Example runs the script against the App Layering server 'AppLayering01', it
 ```
 This Example does the same thing as above, minus the PVS function
 ```
+# Sample Output
+![applayering-script](https://github.com/StevenNoel/Citrix/blob/master/AppLayering/applayering-script.PNG)
