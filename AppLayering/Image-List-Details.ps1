@@ -4,6 +4,7 @@
                 [Parameter(Mandatory=$False)]
                 [string]$LogDir,
                 [Parameter(Mandatory=$False)]
+                [switch]$PVS,
                 [string]$Aplip,
                 [string]$AESPath,
                 [string]$SecurePassPath,
@@ -94,7 +95,7 @@ $images = Get-ALimage -websession $websession | Sort-Object Name
 
         Write-host "------------------------------------------------------"
 
-
+       if ($PVS){
         Foreach ($PVSSite in $PVSSites)
             {
                 Write-host "PVS Site:" $PVSSite "Using Image:" $image.name
@@ -106,7 +107,7 @@ $images = Get-ALimage -websession $websession | Sort-Object Name
                     
                 } -ArgumentList $image.name
             }
-
+         }
         }
 
 ####################### Get Elapsed Time of Script ###########
